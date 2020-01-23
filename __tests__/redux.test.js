@@ -1,4 +1,5 @@
-import { createStore, combineReducers } from '../src/redux';
+import createStore from '../createStore';
+import combineReducers from '../combineReducers';
 import { stub } from 'sinon';
 
 it('createStore - should work', () => {

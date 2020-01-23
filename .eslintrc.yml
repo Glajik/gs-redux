@@ -1,0 +1,10 @@
+extends:
+  - 'airbnb-base'
+rules:
+  arrow-parens:
+    - error
+    - as-needed
+    - requireForBlockBody: true
+env:
+  node: true
+  browser: true
